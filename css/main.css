@@ -1,3 +1,335 @@
-/*
- * Estilos de tu proyecto
- */
+div.conteiner{
+  background-color: #2C3E50;
+  width: 1280px;
+  height: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+.conteiner h1 {
+  font-weight: 900;
+  justify-content: flex-start;
+  padding-left: 140px;
+}
+div.box-1{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 140px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  font-size: 15px;
+  list-style: none;
+  align-items: center;
+}
+div.box-1 li{
+  padding: 7px;
+}
+main.conteiner-main{
+  background-color: #18bc9c;
+  width: 1280px;
+  height: 630px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  margin: 0;
+}
+main.conteiner-main img {
+  margin-top: 100px;
+  height: 230px;
+  width: 230px;
+  margin-bottom: 0;
+  padding: 0;
+}
+main.conteiner-main h1 {
+  font-weight: 900;
+  font-size: 65px;
+  margin-top: 29px;
+  margin-bottom: 25px;
+}
+.icon-star{
+  font-size: 30px;
+}
+div.line{
+  display: flex;
+  align-items: flex-start;
+}
+.line div {
+  height: 5px;
+  width: 95px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px
+}
+.conteiner-main div.line div{
+    background-color: white;
+}
+main.conteiner-main h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 7px;
+}
+.portfolio{
+  height: 793px;
+  width: 1280px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio h2{
+  margin-bottom: 10px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  margin-top: 86px;
+}
+.portfolio .line div, .contact-me .line div {
+  background-color: #212529; !important
+}
+.pictures-portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  height: 515px;
+  width: 1040px;
+  align-content: stretch;
+  margin-top: -7px;
+  margin-left: 15px;
+}
+.pictures-portfolio img{
+  height: 228px;
+  width: 315px;
+  padding: 13.5px;
+}
+/* começo do about */
+main.about{
+  height: 515px;
+  width: 1280px;
+  background-color: #18bc9c;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+main.about h2{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 41px;
+  margin-top: 87px;
+  margin-bottom: 13px;
+}
+.about .line div{
+  background-color: white;
+}
+/* começo da direção dos dois parágrafos */
+.conteiner-text{
+  font-family: 'Lato', sans-serif;
+  font-size: 17.7px;
+  font-weight: 600;
+  line-height: 27px;
+  display: flex;
+  margin: 0;
+  height: 170px;
+  width: 1280px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.about-box{
+  align-content: center;
+  display: table;
+}
+/* div da esquerda */
+.conteiner-text .text1{
+  margin: 0 0 0 280px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-top: 5px;
+  width: 50%;
+}
+/* div da direita */
+.conteiner-text .text2{
+  margin: 0 310px 0 0;
+  padding-right: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 50%;
+}
+/* texto dentro das div */
+.about-text p {
+  margin: 0;
+  display: inline-block;
+  padding: 0;
+  align-items: flex-start;
+}
+.bottom-download {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 190px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 24px;
+}
+.bottom-download i {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+}
+section.contact-me {
+  height: 799px;
+  width: 1280px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+}
+.contact-me h2 {
+  margin: 0;
+  font-weight: 800;
+  margin-top: 87px;
+  margin-bottom: 11px;
+}
+.contact-form{
+  width: 1280px;
+  padding-left: 50px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form form{
+  padding-right: 50px;
+  color: #868e96;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.form div{
+  margin-top: 35px;
+  border-bottom: 1px solid #868e96;
+  width: 660px;
+}
+.form button{
+  margin-top: 96px;
+  margin-left: 2px;
+  color: white;
+  background-color: #18bc9c;
+  border: 0;
+  border-radius: 5px;
+  width: 70px;
+  height: 42px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+}
+.footer{
+  height: 305px;
+  width: 1280px;
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.conteiner-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 135px;
+  margin: 0;
+  padding: 0;
+}
+.footer-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-box h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 900;
+  padding-top: 44px;
+  padding-bottom: 27px;
+}
+.footer-box p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 700;
+}
+.footer-box1 {
+  width: 33.3%;
+  padding-left: 115px;
+}
+.footer-box1 p {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.footer-box2 {
+  width: 33.3%;
+  margin-right: 40px;
+  margin-left: -20px;
+}
+.footer-box2 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.footer-box2 ul li {
+  border: 2px solid white;
+  border-radius: 100%;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  margin-top: 12px;
+  margin-left: 6px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.footer-box3 {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  margin-left: -60px;
+}
+.footer-box3 h4{
+  margin-left: -9px;
+}
+.p-footer {
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin-top: -17px;
+  margin-left: -2px;
+  line-height: 25px;
+}
+.copyright{
+  display: flex;
+  justify-content: center; !important
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 105px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
